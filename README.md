@@ -18,7 +18,7 @@ Build CRUD Application using SpringBoot + DynamoDB then Deploy CRUD application 
 
 ## Custom Policy
 
-```javascript
+```json
 {
   "Version": "2012-10-17",
   "Statement": [
@@ -36,7 +36,7 @@ Build CRUD Application using SpringBoot + DynamoDB then Deploy CRUD application 
 }
 ```
 
-# Request JSON
+## Request JSON
 
 ```json
 {
