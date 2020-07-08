@@ -14,9 +14,7 @@ Build CRUD Application using SpringBoot + DynamoDB then Deploy CRUD application 
 </dependency>
 ```
 
----
 
----
 
 ## Custom Policy
 
@@ -38,4 +36,18 @@ Build CRUD Application using SpringBoot + DynamoDB then Deploy CRUD application 
 }
 ```
 
----
+# Request JSON
+
+```json
+{
+	"name":"Santosh",
+	"email":"santosh@gmail.com",
+	"age":30,
+	"address":{
+		"city":"Bangalore",
+		"state":"karnataka",
+		"pinCode":"560037"
+	}
+}
+
+```
